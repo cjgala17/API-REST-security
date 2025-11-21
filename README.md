@@ -6,8 +6,8 @@
 - Java 21
 - Spring Boot 3
 - Spring Security 6
-- MySQL 8.x
-- Postman (pruebas)
+- MySQL Workbench 8.0
+- Postman 
 
 ## Endpoints implementados
 | Método | URL                    | Acceso permitido           | Resultado esperado          |
@@ -23,7 +23,7 @@
 ## Entregables incluidos
 1. `script.sql` → crea la base de datos `security_db`, tablas `users` y `authorities` + datos semilla con `{noop}12345`
 2. Carpeta `evidencia-postman/` → contiene:
-   - `403_empleado_admin.png` → prueba obligatoria: usuario **empleado** intenta acceder a zona admin → **403 Forbidden**
+   - Las pruebas de ejecución mediante la herramienta Postman
 
 ## Pruebas realizadas y aprobadas en Postman
 - Sin credenciales → `/api/interno` → 401 Unauthorized
