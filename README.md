@@ -1,4 +1,4 @@
-# API REST con Spring Security - Tarea 01
+# API REST Security - Tarea 01
 
 **Alumno:** Gala Justiniano, Carlos Andre  
 
@@ -12,7 +12,7 @@
 ## Endpoints implementados
 | Método | URL                    | Acceso permitido           | Resultado esperado          |
 |--------|------------------------|----------------------------|-----------------------------|
-| GET    | `/api/publico`         | Todos (anónimo incluido)   | 200 OK                      |
+| GET    | `/api/publico`         | Todos (incluido anonimo)   | 200 OK                      |
 | GET    | `/api/interno`         | Usuarios autenticados      | 200 OK (con credenciales)   |
 | GET    | `/api/admin/gestion`   | Solo ROLE_ADMIN            | 200 OK (admin) / 403 (user) |
 
